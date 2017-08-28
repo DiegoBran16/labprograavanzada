@@ -43,6 +43,39 @@ llenamos los datos correspondientes y tendremmos acceso
 [IDE](https://photos-2.dropbox.com/t/2/AABeKnMRudDOmjasPRvVrxTlTqjgFcKKWw9TAinJW63TbQ/12/596449354/png/32x32/1/_/1/2/eclipse%20che%205.png/EM6FuOcEGKAwIAIoAg/FZwyW4WSPUuwDgvGXf_QmlSOMYbAmIgwLmo75nnJfAk?size=1600x1200&size_mode=3)
 
 
+Agregacion EclipseChe
+-----------------------
++ Clase Point, con sus respectivos getters y setters 
+[Clase](https://photos-1.dropbox.com/t/2/AAATh-UnQ4JICJi5pvZTuCuorfBvB42_ih2b39aRxfQkbQ/12/596449354/png/32x32/1/_/1/2/punto%20java%201.png/EM6FuOcEGKQwIAIoAg/4GEABcZJyqmzJhq92WbJTvsN4HEWyaK1VAPLhhWpsWs?size=1600x1200&size_mode=3)
+[Point](https://photos-6.dropbox.com/t/2/AAD-cJ7Ov4Px-Sx83gf8ZpzEw8ELiRBYi6asdKn8FOh9rg/12/596449354/png/32x32/1/_/1/2/punto%20java%202.png/EM6FuOcEGKQwIAIoAg/tzB5FL3x3TWyS-3w5ibN_hm9fxe-FNb4qjN5FX51gE4?size=1600x1200&size_mode=3)
+
+Esta Clase contiene metodos para obtener distancia entre 2 puntos y la distancia hacia el punto (0,0)
+
+distancia entre 2 puntos:
+
+         public double distance (double x2, double y2){
+         double distance =(double)Math.sqrt((Math.pow((x2-x),2)+ Math.pow((y2-y),2)));
+         return distance;
+     }
+
+Distancia entre un punto y (0,0)
+ 
+     public double distance3(){
+         double distance = (double)Math.sqrt((Math.pow((x),2)+ Math.pow((y),2)));
+         return distance;
+     }
+     
++Clase Line con sus respectivos getters y setters a diferencia de la Clase point esta tiene getters y setters directamente de tipo punto y getters y setters de tipo int para preferencia del usuario
+[Clase](https://photos-1.dropbox.com/t/2/AAA4hqi4oWxcoazKlG5Z3ZJM7ds-b18Sd6INH8YgdQhTrg/12/596449354/png/32x32/1/_/1/2/linea%20java%201.png/EM6FuOcEGKQwIAIoAg/XLN1uxqwSA2Pjlg0eQFjQb9uTW8X57jgZ2Vx903e9Eo?size=1600x1200&size_mode=3)
+[Line](https://photos-5.dropbox.com/t/2/AADZCGgy7FIr6edbK2tOXLHs95sU61V-l2o_Dbuqj75NXw/12/596449354/png/32x32/1/_/1/2/linea%20java%202.png/EM6FuOcEGKQwIAIoAg/xeM7O8Zkg8dzrxNRTzy0mI8VzBMnlarpufdoxoLlrbI?size=1600x1200&size_mode=3)
+
+
+
+   
+     
+
+
+
 
 
 
