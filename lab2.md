@@ -1,4 +1,4 @@
-Tarea 1 laboratorio 1
+Laboratorio 1
 ======================
 1)¿Que es github?
 ---------------
@@ -12,4 +12,12 @@ Tarea 1 laboratorio 1
 --------------------------------------------------
 + En que agregacion consiste en instancear una clase dentro de otra debido a que el objeto que representa la clase sera utilizado dentro del plano de creacion del otro objeto,
 mientras que la herencia consiste en que una clase herede todos los metododos y atributos a una subclase.
+
+4)¿Que relacion existe entre herencia y pilimorfismo?  
+-----------------------------------------------------
++ En que en ambas existe interaccion entre 2 o mas clases
+
+5)implementacion de agregacion eclipse che
+-------------------------------------------
+
 
