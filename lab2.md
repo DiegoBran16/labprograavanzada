@@ -17,7 +17,10 @@ mientras que la herencia consiste en que una clase herede todos los metododos y 
 -----------------------------------------------------
 + En que en ambas existe interaccion entre 2 o mas clases
 
-5)implementacion de agregacion eclipse che
+5)Comprovar version de Java y Javac
 -------------------------------------------
+
+[version de Java y Javac}](https://photos-4.dropbox.com/t/2/AABz3tyULReA7UvizobgTQLuyWmUZG7dVXakHDKvZIxv_g/12/596449354/png/32x32/1/_/1/2/javav.png/EM6FuOcEGJgwIAIoAg/C38PgO263IrMIjjfzF6BEhfVbQ7Zw2Hr7SPtf3m7I_Y?size=1600x1200&size_mode=3
+)
 
 
