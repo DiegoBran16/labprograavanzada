@@ -160,6 +160,22 @@ Eliminar un curso:
       }
       
       
+Tarea
+======
+
+Instalae Eclipse Oxygen
+-------------------------
+
++ Ir a la pagina de Eclipse y hacer click en descargar
+![](<a href="http://imgur.com/mroUbSh"><img src="http://i.imgur.com/mroUbSh.png" title="source: imgur.com" /></a>)
+
++ Correr el intalador y hacer click en Eclipse for Java Developers
+![](<a href="http://imgur.com/ODRaN5d"><img src="http://i.imgur.com/ODRaN5d.png" title="source: imgur.com" /></a>)
+
++ Hacer click en instalar y al finalizar aparecera el acceso directo en su escritorio 
+![](<a href="http://imgur.com/yfiFrMK"><img src="http://i.imgur.com/yfiFrMK.png" title="source: imgur.com" /></a>)
+      
+      
 
 
 
