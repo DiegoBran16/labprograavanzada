@@ -67,9 +67,107 @@ Distancia entre un punto y (0,0)
          return distance;
      }
      
-+Clase Line con sus respectivos getters y setters a diferencia de la Clase point esta tiene getters y setters directamente de tipo punto y getters y setters de tipo int para preferencia del usuario
++ La Clase Line con sus respectivos getters y setters a diferencia de la Clase point esta tiene getters y setters directamente de tipo punto aparte de los getters y setters de tipo int para preferencia del usuario
 ![Clase Line](<a href="http://imgur.com/6hJtE2z"><img src="http://i.imgur.com/6hJtE2z.png" title="source: imgur.com" /></a>)
 ![](<a href="http://imgur.com/HdS8usF"><img src="http://i.imgur.com/HdS8usF.png" title="source: imgur.com" /></a>)
+
+la Clase line permite obtener la distancia de la linea a travez de la siguiente funcion
+
+          public double getLenght(){
+               double distance=(double)Math.sqrt((Math.pow((end.getX()-Begin.getX()),2)+ Math.pow((end.getX()-Begin.getY()),2)));
+               return distance;
+            }  
+            
+
+Herencia EclipseChe
+-------------------
+
++ La clase persona contiene 2 atributos nombre y direccion con sus respectivos getters y setters
+![](<a href="http://imgur.com/1rD40jd"><img src="http://i.imgur.com/1rD40jd.png" title="source: imgur.com" /></a>)
+
++ La clase estudiante hereda los metodos de la clase persona y se añades sus propiedades lasa cuales son cursos, notas y numero de cursos
+![](<a href="http://imgur.com/z0Zm2l9"><img src="http://i.imgur.com/z0Zm2l9.png" title="source: imgur.com" /></a>)
+
+en esta clase podremos encontrar metodos como: 
+
+
+Agregar un curso
+
+            public void addCourseGrade(String course, int grade){
+              for(int i =0; i <= courses.length; i++){
+              if(courses[i] != null){
+                courses[i]= course;
+            }
+             for(int j =0; j<= grades.length; j++){
+            if(grades[i] != 0){
+                grades[i]= grade ; 
+                
+                
+Imprimir notas
+
+    public void printGrades(){
+        for(int i=0; i<=grades.length; i++){
+            if (grades[i]!= 0){
+                System.out.println(grades[i]);
+            }
+            
+Obtener el promedio
+
+    public int getAverageGrades(){
+     int total=0;
+     int suma=0;
+     int t1=0;
+     for(int i=0; i<grades.length;i++){
+         suma= grades[i];
+         t1 = total;
+         total = (t1+suma);    
+     }
+     return total;
+     }
+    
+    
++ Tambien se encontrara la clase maestrro la cual hereda metodos de la clase persona y ademas tiene propiedades como numero de cursos y cursos
+![](<a href="http://imgur.com/OqrTfAe"><img src="http://i.imgur.com/OqrTfAe.png" title="source: imgur.com" /></a>)
+
+en esta se encuentran metodos como:
+
+Agregar un curso:
+
+    public boolean addCourse(String course){
+        for (int i=0; i< courses.length;i++){
+            if(courses[i]==null){
+                courses[i]= course;
+                return true;
+            }  else if (courses[i]== course){
+                return false;
+            }
+         } return false;
+
+      }
+      
+Eliminar un curso:
+
+          public boolean addCourse(String course){
+        for (int i=0; i< courses.length;i++){
+            if(courses[i]==null){
+                courses[i]= course;
+                return true;
+            }  else if (courses[i]== course){
+                return false;
+            }
+         } return false;
+
+      }
+      
+      
+
+
+
+     
+
+
+
+
 
 
 
