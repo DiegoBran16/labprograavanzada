@@ -1,0 +1,16 @@
+LABORATORIO 3 
+----------------------
+----------------------
+
+
+¿Que es una interfaz?
+---------------------
++ Es un contraro que tienen que cumplic las clases, las clases que extiendan a la interfaz deben contener los metodos establecidos en la interfaz
+
+¿Que es una clase abstracta?
+------------------------------
++ es una clase que incorpora metodos, pero no contiene el codigo de dichos metodos
+
+¿Que diferencia hay etre herencia e interfaces?
+----------------------------------------------
++ Herencia 
