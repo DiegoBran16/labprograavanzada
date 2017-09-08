@@ -37,3 +37,9 @@ Clase rectangulo
 -----------------
 + Contiene metodos getArea y toString 
 ![](https://i.imgur.com/g8tGezk.png)
+
+Clase Main 
+-----------
++ contiene identificadores de shape que luego estaleci como rectangulo y trianglo, ademas de un cambio de forma y posteriormente downcasting
+
+![](https://i.imgur.com/oK9HbWm.png)
