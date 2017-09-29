@@ -2,9 +2,9 @@ Listas enlazadas
 -------------------
 --------------------
 
+~~~
 public class SinglyLinkedList {
 
-~~~
 private static class Node{
     private String propiedad;
     private Node next;
