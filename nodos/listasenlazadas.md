@@ -118,3 +118,18 @@ void eliminarPrimero(){
 	}
 
 ~~~
+
++ mostrar si esta vacio
+----------------------------
+~~~
+bool isEmpty(){
+		if (size==0){
+			return true;
+
+		}
+		else{
+			return false;
+		}
+	}
+	~~~
+	
